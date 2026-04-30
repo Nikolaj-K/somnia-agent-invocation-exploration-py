@@ -1,11 +1,13 @@
 # Minimal Somnia Agents Python Invoker
 
-WARNING: mainnet invocation spends real SOMI if `network` is `mainnet`.
+This is a local Python project for calling the Somnia Agents platform contract.
+Almost entirely vibe-slopped today. But tiny enough.
 
-This is a tiny local Python project for calling the Somnia Agents platform contract.
-It loads ignored local runtime config plus `SOMNIA_PRIVATE_KEY` from `.env.local`, combines that with an explicit non-secret agent preset, checks RPC/chain/balance, quotes the documented deposit, and submits one agent request when callback config is supplied.
-The recommended first-success preset is LLM Inference. LLM Parse Website is also supported, but it is more fragile because it adds website fetching/parsing behavior to the basic request path.
+<img width="832" height="511" alt="Screenshot 2026-05-01 at 01 35 27" src="https://github.com/user-attachments/assets/b0585af2-9331-452a-a62e-f8a64f0f924c" />
+
 Python is practical here because Somnia Agents use standard EVM ABI encoding; the official docs also show TypeScript/viem snippets and Explorer-generated code.
+It loads ignored local runtime config plus `SOMNIA_PRIVATE_KEY` from `.env.local`, combines that with an explicit non-secret agent preset, checks RPC/chain/balance, quotes the documented deposit, and submits one agent request when callback config is supplied.
+The recommended first-success preset is LLM Inference. LLM Parse Website is also supported in principle, but in a TODO state - I didn't quite get it yet. Probably more fragile because it adds website fetching/parsing behavior to the basic request path.
 
 ## How This Works
 
