@@ -1,0 +1,7 @@
+web3>=7.0,<8
+eth-abi>=5.0,<6
+eth-utils>=5.0,<6
+requests>=2.32,<3
+urllib3>=1.26,<2
+py-solc-x>=2.0,<3
+rich>=13,<15

@@ -1,0 +1,10 @@
+config.local.json
+.env.local
+.solcx/
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+.pytest_cache/
+somnia-agents-safe.zip
+tmp_del_AGENTS.md

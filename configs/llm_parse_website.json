@@ -1,0 +1,42 @@
+{
+  "payload": {
+    "key": "answer",
+    "description": "A short description of Somnia Agents.",
+    "options": [],
+    "prompt": "Extract a short description of Somnia Agents from this page.",
+    "url": "https://docs.somnia.network/agents",
+    "resolve_url": false,
+    "num_pages": 1,
+    "confidence_threshold": 1
+  },
+  "agent": {
+    "name": "llm-parse-website",
+    "agent_id": 12875401142070969085,
+    "method_signature": "ExtractString(string,string,string[],string,string,bool,uint8,uint8)",
+    "input_types": [
+      "string",
+      "string",
+      "string[]",
+      "string",
+      "string",
+      "bool",
+      "uint8",
+      "uint8"
+    ],
+    "output_types": [
+      "string"
+    ],
+    "args": [
+      "answer",
+      "A short description of Somnia Agents.",
+      [],
+      "Extract a short description of Somnia Agents from this page.",
+      "https://docs.somnia.network/agents",
+      false,
+      1,
+      1
+    ],
+    "per_agent_price_tokens": "0.10",
+    "subcommittee_size": 3
+  }
+}

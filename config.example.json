@@ -1,0 +1,12 @@
+{
+  "wallet_address": null,
+  "network": "testnet",
+  "rpc_url": null,
+  "callback_address": null,
+  "callback_selector": "0x387e0801",
+  "poll_seconds": 15,
+  "max_wait_seconds": 1200,
+  "gas_limit": 500000,
+  "max_fee_per_gas_gwei": null,
+  "max_priority_fee_per_gas_gwei": null
+}
