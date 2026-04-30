@@ -1,7 +1,9 @@
 # Minimal Somnia Agents Python Invoker
 
 This is a local Python project for calling the Somnia Agents platform contract.
-**It's almost entirely vibe-slopped today.** Only a few lines in this README are from me, also. But the whole thing is tiny enough, don't complain.
+**It's almost entirely vibe-slopped today.** Only a few lines here at the start of this README are from me, also. But the whole thing is tiny enough, don't complain. 
+I hope the README.md is up to date, but if not it should not be too confusing.
+
 I purposely tried to track my hurdles and confusions in [Feedback](FEEDBACK.md), or rather I regularly asked Codex to document what makes sense.
 
 <img width="832" height="511" alt="Screenshot 2026-05-01 at 01 35 27" src="https://github.com/user-attachments/assets/b0585af2-9331-452a-a62e-f8a64f0f924c" />
