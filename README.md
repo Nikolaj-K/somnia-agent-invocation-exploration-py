@@ -312,7 +312,7 @@ Only rerun this when `requirements.txt` changes or a package is missing:
 python -m pip install -r requirements.txt
 ```
 
-## Share Safe Files
+## Share Safe Files (this is just for me to go not-local to save Codex token, you can ignore this)
 
 To create a zip that excludes local secrets, local config, virtualenvs, and
 compiler caches:
