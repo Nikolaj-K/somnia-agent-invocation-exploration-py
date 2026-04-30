@@ -312,7 +312,9 @@ Only rerun this when `requirements.txt` changes or a package is missing:
 python -m pip install -r requirements.txt
 ```
 
-## Share Safe Files (this is just for me to go not-local to save Codex token, you can ignore this)
+## Share Safe Files 
+
+**Note(Nikolaj-K): This is just for me to go not-local to save Codex token, you can ignore this)**
 
 To create a zip that excludes local secrets, local config, virtualenvs, and
 compiler caches:
@@ -342,15 +344,7 @@ zip -r "$ZIP_NAME" \
 Do not upload `.env.local`, `config.local.json`, `.venv/`, `.solcx/`, or
 terminal history containing a private key.
 
-## What Is Verified vs TODO
-
-Verified from docs: chain IDs, RPCs, native symbols, SomniaAgents platform addresses, platform ABI subset, `getRequestDeposit()`, deposit model, receipt service URLs, LLM Parse Website `agentId=12875401142070969085`, and `ExtractString(string,string,string[],string,string,bool,uint8)`.
-
-TODO: official docs confirm off-chain clients can submit platform transactions and later read `getRequest`, but they do not define a callback-free `callbackAddress`/`callbackSelector` convention. This project therefore requires explicit callback config instead of inventing a zero-address or empty-selector path.
-
-JSON API Request and LLM Inference method ABIs are documented, but their official agent IDs are not in the docs. The `configs/llm_inference.json` preset uses an LLM Inference agent ID observed from recent official platform `RequestCreated` events; verify it against Agent Explorer before a paid call.
-
-Official sources:
+## Official sources:
 - <https://docs.somnia.network/agents/invoking-agents/quickstart.md>
 - <https://docs.somnia.network/agents/invoking-agents/from-solidity.md>
 - <https://docs.somnia.network/agents/invoking-agents/gas-fees.md>
