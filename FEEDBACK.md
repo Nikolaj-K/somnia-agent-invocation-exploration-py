@@ -1,4 +1,5 @@
 Note(Nikolaj-K): The notes below are basically all ChatGPT generates, I prompted it to keep adding and refactorign this file as we went along and solved problems. 99% of the code in the repo is vibeslopped. At the least it gives you a good idea of what the agent could make use of and where this coding still has blockers with the docs, or where stuff is open/ambiguous for it.
+Take everything here also with a grain of salt!
 
 # Feedback: Faster First Somnia Agent Invocation
 
